@@ -1,6 +1,4 @@
 import React from "react";
-import Portfolio from "../Portfolio";
-
 function Nav({ setSelectedPage, selectedPage }) {
   return (
     <nav className="navbar">
@@ -32,7 +30,7 @@ function Nav({ setSelectedPage, selectedPage }) {
               setSelectedPage("resume");
             }}
           >
-            resume
+            resumé
           </span>
         </li>
       </ul>

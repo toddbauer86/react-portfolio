@@ -139,10 +139,7 @@ button[disabled] {
   margin: 10px auto;
 }
 
-.card {
-  align-items: center;
-  margin: 10px;
-}
+
 
 img {
   max-width: 100%;
@@ -270,7 +267,7 @@ textarea {
 }
 
 .card {
-  text-align: center;
+
 }
 
 .img-thumbnail {
@@ -346,4 +343,55 @@ footer ul li {
 
 .active-link{
   color: red;
+}
+
+.contactbox {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.resumebox{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.parent{
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card {
+  width: auto;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+.portfoliocontainer{
+  width: 500px;
+
+margin-right: -50%;
+}
+.container {
+  float: left;
+  text-align: center;
+	
+	width: 250px;
+	margin: 20px auto;
+  padding: 10px;
+	/* display: grid;
+	grid-template-rows: 200px 150px;
+	grid-template-columns: 255px 255px 255px; */
+}
+
+.item{
+  background-color: #eee;
+flex-wrap: wrap;
 }
